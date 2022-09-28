@@ -1,0 +1,159 @@
+body{
+    background-color: darkturquoise;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.banner {
+    background: url(image/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: yellow;
+
+}
+
+
+
+.container-fluid button {
+    margin-top: -50px;
+}
+
+
+.container-fluid .display-6 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container-fluid p{
+    color: white;
+}
+
+.container img{
+    margin-right: 10px;
+}
+
+
+
+.navbar-brand {
+    color: yellow;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.section .card{
+   
+    background-color: darkgrey;
+    margin-top: 80px;
+    border-style: groove;
+    border-radius: 30px;
+    /* border-left: 800px; */
+    position: relative;
+    animation-name: bergerak;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+
+
+
+@keyframes bergerak {
+    from {left: 0px;}
+    to {left: 100px; background-color: dimgray;}
+}
+
+
+
+.container-fluid p{
+    margin-bottom: 50px;
+}
+
+
+.container .navbar a:hover{
+    color: yellow;
+}
+
+
+.container .dropdown-menu {
+    background-color: #0d6efd;
+}
+
+
+.container .dropdown-menu a:hover{
+    background-color: #87b0ecda;
+    color: yellow;
+}
+
+
+.container .dropdown-item {
+    color: white;
+}
+
+
+.container-pimpinan {
+    background: linear-gradient(#000046, #1cb5e0);
+    /* height: 400px; */
+    margin-bottom: 30px;
+    margin-top: -150px;
+}
+
+
+.container-pimpinan h6 {
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+
+.container .kotak-pimpinan {
+    background-color: red;
+    padding: 30px;
+}
+
+
+.container .kotak-pimpinan img{
+    border-radius: 190px;
+    height: 180px;
+    width: 150px;
+}
+
+
+
+.section img {
+    border-radius: 80px;
+    height: 120px;
+    width: 110px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.section {
+    margin-top: -150px;
+    
+}
+
+.section h4 {
+    margin-top: 80px;
+}
+
+
+.section .col-md-6 p {
+    margin-bottom: 80px;
+}
+
+
+.box-galery img {
+    border-radius: 50px;
+    width: 150px;
+}
+
+
+.container-fluid .col-md-3 i {
+    margin-left: 10px;
+}
+
